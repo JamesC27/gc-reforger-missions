@@ -1,3 +1,42 @@
+$grp SCR_AIGroup : "{3E19B428E9137511}Prefabs/Groups/INDFOR/FIA/FIA_Modern/Group_FIAModern_RifleSquad.et" {
+ Loose_sentry1 {
+  coords 1307.308 11.422 1115.563
+  m_aUnitPrefabSlots {
+   "{2697B58B16973BA2}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman.et"
+  }
+ }
+ Loose_sentry2 {
+  coords 1341.843 11.441 1158.144
+  angles 0 96.147 0
+  m_aUnitPrefabSlots {
+   "{2697B58B16973BA2}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman.et"
+  }
+ }
+ Loose_sentry3 {
+  coords 1206.686 22.187 1370.985
+  m_aUnitPrefabSlots {
+   "{2697B58B16973BA2}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Rifleman.et"
+  }
+ }
+ Loose_sentry4 {
+  coords 1248.368 22.681 1423.075
+  m_aUnitPrefabSlots {
+   "{9B49DF1972985E6E}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Grenadier.et"
+  }
+ }
+ Loose_sentry5 {
+  coords 1335.084 25.203 1364.994
+  m_aUnitPrefabSlots {
+   "{9B49DF1972985E6E}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_Grenadier.et"
+  }
+ }
+ Loose_sentry6 {
+  coords 1277.765 22.294 1473.53
+  m_aUnitPrefabSlots {
+   "{D057F0707733270C}Prefabs/Characters/Factions/INDFOR/FIA/FIA_Modern/Character_FIA_Modern_AR.et"
+  }
+ }
+}
 $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
  WP_M1 {
   coords 705.907 22.191 1159.882

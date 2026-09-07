@@ -3,10 +3,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 3268.667 32.36 691.859
   m_sTitle "Comsig"
   m_sTextData "<h2>CALLSIGNS</h2>"\
-  "• HQ - 31HQ"\
-  "• 1SEC - 31Alpha"\
-  "• 2SEC - 31Bravo"\
-  "• WEP - 31Charlie"\
+  "• HQ - 21HQ"\
+  "• 1SEC - 21Alpha"\
+  "• 2SEC - 21Bravo"\
+  "• WEP - 21Charlie"\
   ""\
   "<h2>FREQ/CHAN</h2>"\
   "• Platoon net - 42hz"\
