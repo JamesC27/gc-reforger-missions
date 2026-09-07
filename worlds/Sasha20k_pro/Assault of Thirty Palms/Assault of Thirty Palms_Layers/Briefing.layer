@@ -5,9 +5,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "NOTES"
   m_sTextData "<b>Extra Notes</b>"\
   ""\
-  "Total victory: Take FOB Thirty Palms and Kill all enemy Insurgent Platoons."\
+  "Total victory: Take full control of FOB Thirty Palms for 2 minutes."\
   ""\
-  "Total Defeat: Die or spend more than 40 mins on your ass."\
+  "Total Defeat: Death of 80% of players which results in combat innefectiveness or 40 minutes pass."\
   ""\
   ""\
   ""
@@ -32,7 +32,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "MISSION"
   m_sTextData "<b>Mission</b> "\
   ""\
-  "Assault and take FOB Thirty Palms under your control, and Kill All enemy platoons near Thirty Palms."
+  "Assault and take FOB Thirty Palms under your control, and/or Kill All enemy platoons near Thirty Palms."
   m_bShowForAnyFaction 1
   m_iOrder 2
  }
@@ -43,7 +43,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "No ressuply at any point sadly."\
   ""\
-  "(Blame the Brigadier General for the three Green humvees)"
+  "(Blame the Brigadier General for the two Green humvees)"
   m_bShowForAnyFaction 1
   m_iOrder 4
  }
@@ -60,7 +60,9 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<b>Radio</b> "\
   ""\
   "Platoon net: 48"\
-  "The rest as per commanders intent."
+  "Alpha: 47.0"\
+  "Bravo: 47.4"\
+  "Charlie: 47.8"
   m_bShowForAnyFaction 1
   m_iOrder 5
  }
@@ -69,7 +71,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "OVERVIEW"
   m_sTextData "<b>Overview</b>"\
   ""\
-  "US Marines Assault the FOB of Thirty Palms, which is heavelly defended my enemy insurgents"
+  "US Marines Assault the FOB of Thirty Palms, which is defended my enemy insurgents"
   m_bEmptyFactionVisibility 1
  }
 }
