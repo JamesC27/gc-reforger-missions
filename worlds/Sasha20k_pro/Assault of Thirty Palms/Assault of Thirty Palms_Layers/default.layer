@@ -104,11 +104,11 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
  coords 5267.187 213.452 1750.746
  m_missionEvents {
   TILW_MissionEvent "{6A10A3CC1C8D038C}" {
-   m_name "Insurgents 80% Dead"
+   m_name "Insurgents Dead"
    m_instructions {
     TILW_SendMessageInstruction "{6A10A3CC3E60482D}" {
      m_messageTitle "US Wins!"
-     m_messageBody "80% of All insurgents defending Thirty Palms Have been killed, mission succsesful boys"
+     m_messageBody "99% of All insurgents defending Thirty Palms Have been killed, mission succsesful boys"
     }
    }
    m_condition TILW_LiteralTerm "{6A10A3CD4F74D21F}" {
@@ -140,17 +140,19 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
     m_invertTerm 1
    }
   }
+  TILW_MissionEvent "{6A4EC62EC3D9331D}" {
+  }
  }
  m_casualtyFlags {
   TILW_FactionAIKilledFlag "{6A10A3CDCA3C355D}" {
    m_flagName "Insurgents Killed"
    m_factionKey "GC_INSURGENT"
-   m_casualtyRatio 0.8
+   m_casualtyRatio 0.99
   }
   TILW_FactionPlayersKilledFlag "{6A10A3CDACEBB175}" {
    m_flagName "US players Killed"
    m_factionKey "RHS_USAF"
-   m_casualtyRatio 0.95
+   m_casualtyRatio 0.99
   }
  }
 }
