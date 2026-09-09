@@ -101,9 +101,9 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
  }
 }
 TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
- coords 5169.854 208.353 1831.948
- m_queryRadius 100
- m_captureTime 2
+ coords 5172.888 208.353 1810.986
+ m_queryRadius 150
+ m_captureTime 120
  m_locationName "FOB Thirty Palms"
  m_flagName "Thirty Palms Taken"
  m_stopAfterFirstChange 1
@@ -159,5 +159,15 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    m_factionKey "RHS_USAF"
    m_casualtyRatio 0.8
   }
+ }
+}
+$grp Vehicle : "{BC799DFC61A080D0}Prefabs/Vehicles/Wheeled/M998/M1151/M2HB/GC_M1151_armed_M2HB_MDO_OGPK+Cover_tan.et" {
+ GC_M1151_armed_M2HB_MDO_OGPK_Cover_tan2 {
+  coords 4137.249 167.528 2629.947
+  angles 0 177.533 0
+ }
+ GC_M1151_armed_M2HB_MDO_OGPK_Cover_tan3 {
+  coords 4143.278 167.269 2626.116
+  angles 0 177.533 0
  }
 }
